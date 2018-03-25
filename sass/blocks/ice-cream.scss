@@ -1,0 +1,36 @@
+.ice-cream {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ice-cream__item {
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+}
+.ice-cream__title {
+  margin: 0;
+  padding: 0;
+  order: 2;
+}
+.ice-cream__price {
+  margin-top: auto;
+  order: 3;
+}
+.ice-cream__name {
+  font-size: 16px;
+  line-heigh: 22px;
+  text-align: center;
+  font-weight: medium;
+  color: #ffffff;
+}
+.ice-cream__price {
+  font-size: 45px;
+  line-height: 45px;
+}
+.ice-cream__img {
+  border-radius: 50%;
+}

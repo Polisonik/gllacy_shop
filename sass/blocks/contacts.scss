@@ -1,0 +1,26 @@
+.contacts {
+  position: relative;
+  min-height: 430px;
+  width: 100%;
+  background-color: #e7e4dd;
+  background-image: url(../img/map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contacts__company {
+  position: absolute;
+  top: 62px;
+  right: 27px;
+  width: 302px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #fefefe;
+  color: #323232;
+  border-radius: 10px;
+  font-size: 14px;
+  line-heigth: 20px;
+
+}

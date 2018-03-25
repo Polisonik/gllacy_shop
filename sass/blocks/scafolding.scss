@@ -1,8 +1,20 @@
 body {
-  max-width: 1200px;
   margin: 0;
   padding: 0;
   font-family: 'Roboto', 'Arial', sans-serif;
   background-color: #849d8f;
   color: #ffffff;
+}
+.container {
+  max-width: 1146px;
+  padding: 0 27px;
+  margin:0 auto;
+}
+
+//В дальнейшем заменить на правильное скрытие //
+.visually-hidden {
+  display: none;
+}
+a {
+  text-decoration: none;
 }

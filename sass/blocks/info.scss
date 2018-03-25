@@ -1,0 +1,18 @@
+.info {
+
+}
+.info__wrapper {
+  width: 560px;
+  display: flex;
+  justify-content: center;
+}
+.info__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.info__column {
+  &--left {
+   margin-right: 20px;
+  }
+}
